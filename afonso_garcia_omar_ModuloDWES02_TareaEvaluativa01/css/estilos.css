@@ -1,0 +1,114 @@
+/* Estilos generales */
+body {
+    background-color: #9a98e6;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.contenedor {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #dedede;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Estilo del título */
+.contenedor h1 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Estilos del formulario */
+#formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Estilos de las labels */
+label {
+    font-size: 14px;
+    color: #3f3f3f;
+}
+
+/* Estilos de los inputs */
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Botón de reservar */
+button[type="submit"] {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para campos válidos */
+.valido {
+    color: #28a745;    
+}
+
+/* Estilo para campos con errores */
+.error {
+    color: #dc3545;    
+}
+
+/* Contenedor principal de la reserva */
+.contenedor-result {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #dedede;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    overflow: visible;
+}
+
+/* Estilo del título */
+.contenedor-result h1 {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+/* Estilo de los textos de la reserva */
+.contenedor-result p {
+    color: #000000;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Imagen del coche ajustada */
+.imagen-coche img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 8px;
+}
